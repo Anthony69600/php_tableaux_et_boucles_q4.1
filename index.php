@@ -6,21 +6,11 @@ $movies = [
     'Indiana Jones and the Temple of Doom'=>1984
 ];
 
-
-foreach ($movies as $key => $movie){
-    echo $key; 
-    echo $movie;
-     
-       
-}
-
 asort($movies);
 
-
-foreach ($movies as $key => $movie){
-    echo $movie;
-    echo $key;     
-       
+foreach($movies as $key => $movie){
+    echo $movie . " - ";
+    echo $key . "<br>";
 }
 
 
